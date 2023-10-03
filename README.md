@@ -1,6 +1,5 @@
-# Kodolamacz final project
+# Kodolamacz final project "Customer-Worth-Classification"
 
-# Customer-Worth-Classification
 
 # Problem
 
