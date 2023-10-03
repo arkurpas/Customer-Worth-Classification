@@ -22,7 +22,6 @@ class EmployerDataPreparation():
         else:
             return 1
         
-        
 
 class SalaryAccountDataPreparation():
     

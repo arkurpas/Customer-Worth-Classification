@@ -33,5 +33,3 @@ def results_printer(X_test, y_test, optimizer, results):
 # In[ ]:
 
 
-
-
