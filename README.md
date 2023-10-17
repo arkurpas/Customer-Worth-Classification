@@ -1,4 +1,4 @@
-# Kodolamacz final project "Customer-Worth-Classification"
+# Prediction of loan approval using machine learning algorithms
 
 
 # Problem

@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
 from sklearn.metrics import (
     precision_score, 
     recall_score, 
@@ -11,9 +5,6 @@ from sklearn.metrics import (
     fbeta_score, 
     roc_auc_score)
 import pandas as pd
-
-
-# In[4]:
 
 
 def results_printer(X_test, y_test, optimizer, results):
@@ -28,8 +19,5 @@ def results_printer(X_test, y_test, optimizer, results):
     results.append([clf_name, f1_test, recall_test, precision_test, roc_auc_test])
     results_df = pd.DataFrame(results, columns=['best clf name', 'Test F1', 'Test Recall', 'Test Precision', 'Test ROC AUC'])
     return y_proba, roc_auc_test, results_df
-
-
-# In[ ]:
 
 
